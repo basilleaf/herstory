@@ -129,9 +129,9 @@ const handlers = {
         // Get a fact from the Her Story facts list
 
         // look up the current month
-        all_months = ['january','february','march','april','may','june','july','august','september','october','november','december']
-        d = new Date();
-        month = all_months[d.getMonth()];
+        const all_months = ['january','february','march','april','may','june','july','august','september','october','november','december']
+        var d = new Date();
+        var month = all_months[d.getMonth()];
         // month = 'October'.toLowerCase();  // or just hard code it
 
         // Use this.t() to get corresponding language data
