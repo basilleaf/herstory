@@ -1,13 +1,3 @@
-/* eslint-disable  func-names */
-/* eslint quote-props: ["error", "consistent"]*/
-/**
- * This sample demonstrates a simple skill built with the Amazon Alexa Skills
- * nodejs skill development kit.
- * This sample supports multiple lauguages. (en-US, en-GB, de-DE).
- * The Intent Schema, Custom Slots and Sample Utterances for this skill, as well
- * as testing instructions are located at https://github.com/alexa/skill-sample-nodejs-fact
- **/
-
 'use strict';
 
 const Alexa = require('alexa-sdk');
@@ -18,8 +8,8 @@ const languageStrings = {
     'en': {
         translation: {
             FACTS: [
-                'A year on Mercury is just 88 days long.',
-                'Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.',
+                'Wyoming is the first territory to give women the right to vote',
+                'U.S. Women\u2019s Trade Union League is established',
                 'Venus rotates anti-clockwise, possibly because of a collision in the past with an asteroid.',
                 'On Mars, the Sun appears about half the size as it does on Earth.',
                 'Earth is the only planet not named after a god.',
