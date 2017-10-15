@@ -2,7 +2,7 @@
 
 const Alexa = require('alexa-sdk');
 
-const APP_ID = 'amzn1.ask.skill.05d105e0-85d6-4119-9826-eac76f5e68ae';  
+const APP_ID = 'amzn1.ask.skill.05d105e0-85d6-4119-9826-eac76f5e68ae';
 
 const languageStrings = {
     'en': {
@@ -43,7 +43,12 @@ const handlers = {
         // Use this.t() to get corresponding language data
         const factArr = this.t('FACTS');
         const factIndex = Math.floor(Math.random() * factArr.length);
-        // TODO: make this lookup the date
+
+        // look up the current month
+        all_months = ['january','february','march','april','may','june','july','august','september','october','november','december']
+        d = new Date()
+        month = monthNames[d.getMonth()]  // or just hard code: month = 'january'
+
         const randomFact = factArr[factIndex];
 
         // Create speech output
