@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "GetNewFactIntent",
+      "samples": [
+        "What's new in today's herstory",
+        "What happened in herstory today",
+        "Tell me a Herstory fact"
+      ],
+      "slots": []
+    }
+  ]
+}
